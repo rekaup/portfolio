@@ -1,0 +1,38 @@
+.header {
+    width: fit-content;
+    margin: 32px auto 0;
+    display: flex;
+    gap: 8px;
+    background-color: var(--surface);
+    border-radius: var(--rd);
+    padding: 8px;
+    position: relative;
+    border: var(--stroke);
+}
+
+.nav-indicator {
+    position: absolute;
+    background-color: var(--active-bg);
+    border-radius: var(--rd);
+    transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 0;
+}
+
+.nav-item {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--unactive);
+    padding: 16px 27px;
+    border-radius: var(--rd);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.nav-item.active {
+    color: var(--active);
+}

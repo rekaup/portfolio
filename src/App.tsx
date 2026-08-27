@@ -12,7 +12,7 @@ function App() {
   return (<div>
     <Header activeTab={activeTab} onChange={setActiveTab} />
     <main className="main">
-       {activeTab === 'home' && <HomePage />}
+       {activeTab === 'home' && <HomePage onNavigate={setActiveTab}/>}
        {activeTab === 'about' && <AboutPage />}
        {activeTab === 'project' && <ProjectPage />}
     </main>

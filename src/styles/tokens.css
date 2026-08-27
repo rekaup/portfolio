@@ -1,9 +1,14 @@
 :root {
     --bg: #000;
-    --font: #fff;
+    --text: #fff;
     --unactive: #5E5E5E;
-    --stroke: #404040;
     --active-bg: #4D5B8B;
     --active: #829DFF;
-    
+    --surface: #171717;
+
+    --stroke:1px solid #404040;
+
+    --rd: 20px;
+
+    --font: "Montserrat", sans-serif;
 }
