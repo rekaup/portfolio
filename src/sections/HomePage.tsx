@@ -31,7 +31,7 @@ export default function HomePage({ onNavigate }: Props) {
         <div className='home second'>
             <p>I write clean, maintainable code and make the development process 
 clear and predictable from React interfaces to Telegram Mini Apps.</p>
-          <button className='my-project-btn' onClick={() => onNavigate('project')}>
+          <button className='second button' onClick={() => onNavigate('project')}>
           My project
         </button>  
         </div>

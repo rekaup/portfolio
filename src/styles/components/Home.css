@@ -15,7 +15,7 @@
 }
 
 .first.title {
-    font-size: 140px;
+    font-size: 120px;
     font-weight: 700;
 }
 
@@ -25,6 +25,10 @@
     align-items: center;
 }
 
+.home.link a {
+    transition: 200ms ease-in-out;
+}
+
 .link.card {
     display: flex;
     align-items: center;
@@ -32,5 +36,35 @@
     background-color: var(--surface);
     border: var(--stroke);
     border-radius: var(--rd);
-    padding: 10px 19px;
+    padding: 10px 13px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.home.second {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    font-size: 24px;
+    margin-bottom: auto;
+    margin-top: 15px;
+}
+
+.second.button {
+    font-size: 20px;
+    font-weight: 700;
+    background-color: var(--active);
+    padding: 13px 25px;
+    border-radius: var(--rd);
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+
+.home.link a:hover {
+    transform: scale(1.1);
+}
+
+.second.button:hover {
+    transform: scale(1.1);
 }

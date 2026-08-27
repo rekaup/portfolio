@@ -31,8 +31,17 @@
     border: none;
     cursor: pointer;
     transition: color 0.2s ease;
+    transition: 200ms ease-in-out;
+}
+
+.nav-item:hover {
+    transform: scale(1.1);
 }
 
 .nav-item.active {
     color: var(--active);
+}
+
+.nav-item.active:hover {
+    transform: scale(1);
 }
