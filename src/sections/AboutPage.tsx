@@ -1,4 +1,6 @@
 import '../styles/components/About.css'
+import art from '../assets/art-about.svg'
+
 export default function AboutPage() {
     return(
     <div className="main about">
@@ -12,7 +14,7 @@ export default function AboutPage() {
             </div>
         </div>
         <div className="about second">
-            <img className="img" src="src\assets\art-about.svg"/>
+            <img className="img" src={art}/>
         </div>
     </div>)
 }
