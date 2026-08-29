@@ -1,0 +1,14 @@
+.main.project {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main.project p {
+    color: var(--unactive);
+}

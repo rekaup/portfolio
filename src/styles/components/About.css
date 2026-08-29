@@ -1,0 +1,25 @@
+.main.about {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.title {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.about.first {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.discription {
+    font-size: 32px;
+    font-weight: 400;
+}

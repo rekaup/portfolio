@@ -1,6 +1,6 @@
 .header {
     width: fit-content;
-    margin: 32px auto 0;
+    margin: 20px auto 0;
     display: flex;
     gap: 8px;
     background-color: var(--surface);
@@ -8,6 +8,9 @@
     padding: 8px;
     position: relative;
     border: var(--stroke);
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 
 .nav-indicator {
@@ -23,7 +26,7 @@
     position: relative;
     z-index: 1;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 15px;
     color: var(--unactive);
     padding: 16px 27px;
     border-radius: var(--rd);

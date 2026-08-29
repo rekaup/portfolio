@@ -17,20 +17,20 @@ export default function HomePage({ onNavigate }: Props) {
                 <a
                 href='#' 
                 className='link card'>
-                    <img src='src\assets\github-logo.svg' />
+                    <img className='link ico' src='src\assets\github-logo.svg' />
                     <p>github</p>
                 </a>
                 <a
                 href='#' 
                 className='link card'>
-                    <img src='src\assets\telegram-logo.svg' />
+                    <img className='link ico' src='src\assets\telegram-logo.svg' />
                     <p>telegram</p>
                 </a>
             </div>
         </div>
         <div className='home second'>
-            <p>I write clean, maintainable code and make the development process 
-clear and predictable from React interfaces to Telegram Mini Apps.</p>
+            <p>I write <b>clean, maintainable code</b> and make the development process 
+<b> clear and predictable</b> from React interfaces to Telegram Mini Apps.</p>
           <button className='second button' onClick={() => onNavigate('project')}>
           My project
         </button>  

@@ -1,8 +1,18 @@
+import '../styles/components/About.css'
 export default function AboutPage() {
     return(
     <div className="main about">
-        <div>
-
+        <div className="about first">
+            <div className="title">
+                <p>Frontend Developer</p>
+                <p> / Digital Artist</p>
+            </div>
+            <div className="discription">
+                <p>Tech stack: React, Vite, Telegram Mini Apps.</p>
+            </div>
+        </div>
+        <div className="about second">
+            <img className="img" src="src\assets\art-about.svg"/>
         </div>
     </div>)
 }
