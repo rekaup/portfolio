@@ -14,7 +14,7 @@ export default function AboutPage() {
             </div>
         </div>
         <div className="about second">
-            <img className="img" src={art}/>
+            <img className="img-art" src={art}/>
         </div>
     </div>)
 }

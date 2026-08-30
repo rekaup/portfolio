@@ -48,3 +48,12 @@
 .nav-item.active:hover {
     transform: scale(1);
 }
+
+@media (max-width:768px) {
+    .header {
+        position: fixed;
+        top: auto;
+        bottom: 20px;
+        margin: 0 auto;
+    }
+}

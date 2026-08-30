@@ -1,6 +1,6 @@
 import '../styles/components/Home.css'
 import GithubLogo from '../assets/github-logo.svg'
-import TelegramLogo from '../assets/telegram-logo.svg'
+// import TelegramLogo from '../assets/telegram-logo.svg'
 import type { TabId } from '../App'
 
 type Props = {
