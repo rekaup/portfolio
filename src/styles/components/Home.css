@@ -77,17 +77,11 @@
     transform: scale(1.1);
 }
 
-@media (max-width:1024px) {
+@media (max-width:768px) {
     .first.title {
         font-size: 72px;
     }
 
-    .main.home {
-        gap: 50px;
-    }
-}
-
-@media (max-width:768px) {
     .main.home {
         flex-direction: column;
         gap: 40px;
